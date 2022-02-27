@@ -2,7 +2,7 @@
 //  LockStatusView.swift
 //  DigitalShowroom
 //
-//  Created by Swati Sood on 30/01/2022.
+//  Created by Vikas Kharb on 30/01/2022.
 //
 
 import UIKit
@@ -90,7 +90,11 @@ class LockStatusView: UIView {
             elementsStack.topAnchor.constraint(equalTo: topAnchor),
             elementsStack.bottomAnchor.constraint(equalTo: bottomAnchor),
             elementsStack.leadingAnchor.constraint(equalTo: leadingAnchor),
-            elementsStack.trailingAnchor.constraint(equalTo: trailingAnchor)
+            elementsStack.trailingAnchor.constraint(equalTo: trailingAnchor),
+            lockUnlockButton.topAnchor.constraint(equalTo: elementsStack.topAnchor),
+            lockUnlockButton.bottomAnchor.constraint(equalTo: statusLabel.topAnchor),
+            lockUnlockButton.heightAnchor.constraint(equalTo: elementsStack.heightAnchor, multiplier: 0.75),
+            statusLabel.bottomAnchor.constraint(equalTo: elementsStack.bottomAnchor)
         ])
     }
     

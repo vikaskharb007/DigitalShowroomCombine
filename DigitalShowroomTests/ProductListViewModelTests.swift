@@ -2,7 +2,7 @@
 //  ProductListViewModelTests.swift
 //  DigitalShowroomTests
 //
-//  Created by Swati Sood on 30/01/2022.
+//  Created by Vikas Kharb on 30/01/2022.
 //
 
 import XCTest
