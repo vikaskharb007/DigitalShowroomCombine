@@ -1,0 +1,14 @@
+{
+    "vins": [
+        {
+            "vin": "802CC7DD-F2B6-409F-A981-3044802C456",
+            "imagePath": "https://e7.pngegg.com/pngimages/513/869/png-clipart-cartoon-animation-cars-cartoon-compact-car-car.png",
+            "plate": "ES-02-02"
+        },
+        {
+            "vin": "C7DD802C-F2B6-409F-A981-C7DD1F9DCE08",
+            "imagePath": "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "plate": "FG-02-01"
+        }
+    ]
+}
